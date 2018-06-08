@@ -1,0 +1,17 @@
+{
+  "name": "staycalm1/tt2",
+  "description": "test assignment",
+  "type": "project",
+  "require": {
+    "monolog/monolog": "^1.23"
+  },
+  "require-dev": {
+    "codeception/codeception": "^2.4"
+  },
+  "autoload": {
+    "files": ["src/legacy/ads.php"],
+    "psr-4": {
+      "StayCalm1\\Tt2\\": "src/"
+    }
+  }
+}
